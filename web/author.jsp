@@ -12,10 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body><h2>Author</h2>
-        <form action="" method="" name="">
-
-            <input type="text" name="" placeholder="Author Name">
-            <input type="submit" name="submit">
+        <form action="authorInsert" method="POST" name="form">
+            <input type="text" name="authorName" placeholder="Author Name">
+            <input type="submit"  value="Submit" id="subbtn">
         </form>
     </body>
 </html>
