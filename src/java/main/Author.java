@@ -46,7 +46,7 @@ public class Author {
 
     public void authorInsert() {
         try {
-            String query = "INSERT INTO `author`(`name`) VALUES (" + getName() + ")";
+            String query = "INSERT INTO `author`(`name`) VALUES ('" + getName() + "')";
             DbConnect.pushToDB(query);
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(Author.class.getName()).log(Level.SEVERE, null, ex);

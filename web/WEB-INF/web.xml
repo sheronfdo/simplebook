@@ -4,9 +4,17 @@
         <servlet-name>bookInsert</servlet-name>
         <servlet-class>bookInsert</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>authorInsert</servlet-name>
+        <servlet-class>authorInsert</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>bookInsert</servlet-name>
         <url-pattern>/bookInsert</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>authorInsert</servlet-name>
+        <url-pattern>/authorInsert</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
